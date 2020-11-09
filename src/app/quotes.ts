@@ -1,2 +1,11 @@
 export class Quotes {
+    constructor(
+        public id: number,
+        public quotePublisher: string,
+        public quoteMessage: string,
+        public quoteAuthor: string,
+        public inputDate: Date
+        ){
+            
+        }
 }
