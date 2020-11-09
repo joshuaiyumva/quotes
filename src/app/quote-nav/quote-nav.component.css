@@ -1,0 +1,18 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #A7D2CB;
+  border-radius: 0px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.btn{
+    background-color: white;
+    color: #2c6359;
+    border-color: #2c6359;
+}
