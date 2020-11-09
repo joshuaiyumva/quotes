@@ -1,5 +1,5 @@
 <div class="form-popup" id="myForm">
-  <form class="form-container" (ngSubmit)="submitMessage()">
+  <form class="form-container" >
     <h1>Create a new quote</h1>
     <input type="text" placeholder="Enter publisher Name..."  name="publisher" required>
     <textarea type="text" placeholder="Enter Quote Details..."  name="message" required></textarea>
@@ -13,6 +13,9 @@
     <p>Publisher: {{quotePublisher}}</p>
     <p>Quote: {{quoteMessage}}</p>
     <p>Author: {{quoteAuthor}}</p>
-  </div> -->
+  </div>
+[ngSubmit]="submitMessage()"
+-->
+
 </div>
 

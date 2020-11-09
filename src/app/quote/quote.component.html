@@ -1,9 +1,11 @@
-<!-- <div class="card" style="width: 30rem;">
-  <div class="card-body">
-    <h5 class="card-title">Quote</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Publisher: {{quotePublisher}}</h6>
-    <p class="card-text">{{quoteMessage}}</p>
-    <a href="#" class="card-link">More details</a>
-    <app-details></app-details>
-  </div>
-</div> -->
+ <div *ngFor='let Quotes of newquote; let i = index'>
+   <div class="card" style="width: 30rem;">
+     <div class="card-body">
+       <h5 class="card-title">Quote</h5>
+       <h6 class="card-subtitle mb-2 text-muted">Publisher: {{Quotes.quotePublisher}}</h6>
+       <p class="card-text">{{Quotes.quoteMessage}}</p>
+       <a href="#" class="card-link">More details</a>
+       <app-details></app-details>
+     </div>
+   </div>
+ </div>
