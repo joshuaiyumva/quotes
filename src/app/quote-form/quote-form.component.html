@@ -1,1 +1,11 @@
-<p>quote-form works!</p>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Create a new quote</h1>
+    <input type="text" placeholder="Enter publisher Name..." name="quotePublisher" required>
+    <textarea type="text" placeholder="Enter Quote Details..." name="quoteMessage" required></textarea>
+    <input type="password" placeholder="Enter Author Name..." name="quoteAuthor" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
