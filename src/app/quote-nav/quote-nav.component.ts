@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteNavComponent implements OnInit {
 
+  showForm: boolean;
+  toggleForm() {
+    this.showForm = !this.showForm;
+  }
+
+
   constructor() { }
 
   ngOnInit(): void {
