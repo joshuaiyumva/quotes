@@ -6,7 +6,7 @@
        <h6 class="card-subtitle mb-2 text-muted">Publisher: {{Quotes.quotePublisher}}</h6>
        <h6 class="card-subtitle mb-2 text-muted">Published On: </h6>
        <a class="card-link btn btn-success" (click)="showMoreDetails(i)">More details</a>
-       <app-details *ngIf="Quotes.showMore" [moreQuote]="Quotes"></app-details>
+       <app-details *ngIf="Quotes.showMore" [moreQuote]="Quotes" (removeQuote)="removeOne($event,i)"></app-details>
      </div>
    </div>
  </div>

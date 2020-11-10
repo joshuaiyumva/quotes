@@ -26,6 +26,11 @@ export class QuoteComponent implements OnInit {
   showMoreDetails(index){
     this.newquote[index].showMore = !this.newquote[index].showMore;
   }
+  removeOne(removeQuote, index){
+    if(removeQuote){
+      this.newquote.splice(index, 1);
+    }
+  }
 
   constructor() { }
 
