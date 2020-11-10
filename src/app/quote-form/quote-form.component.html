@@ -1,16 +1,10 @@
-<div class="form-popup" id="myForm">
-  <form class="form-container" >
+<div class="form-popup" id="myForm" (ngSubmit)="submitMessage()">
+  <form class="form-container">
     <h1>Create a new quote</h1>
-    <input type="text" placeholder="Enter publisher Name..."  name="publisher" required>
-    <textarea type="text" placeholder="Enter Quote Details..."  name="message" required></textarea>
-    <input type="text" placeholder="Enter Author Name..."  name="author" required>
+    <input type="text" placeholder="Enter publisher Name..." name="publisher" required>
+    <textarea type="text" placeholder="Enter Quote Details..." name="message" required></textarea>
+    <input type="text" placeholder="Enter Author Name..." name="author" required>
 
     <button type="submit" class="btn">Create Quote</button>
-    <button type="button" class="btn cancel">Close</button>
   </form>
-<!--
-[ngSubmit]="submitMessage()"
--->
-
 </div>
-

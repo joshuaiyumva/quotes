@@ -11,8 +11,15 @@
   align-items: center;
   box-sizing: border-box;
 }
-.btn{
-    background-color: white;
-    color: #2c6359;
-    border-color: #2c6359;
+
+.btn {
+  background-color: white;
+  color: #2c6359;
+  border-color: #2c6359;
+}
+
+#logo {
+  font-family: 'Monoton',
+    cursive;
+  ;
 }

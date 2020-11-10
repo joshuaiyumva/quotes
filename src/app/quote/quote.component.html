@@ -3,9 +3,12 @@
      <div class="card-body">
        <h5 class="card-title">Quote</h5>
        <p class="card-text">{{Quotes.quoteMessage}}</p>
-       <h6 class="card-subtitle mb-2 text-muted">Publisher: {{Quotes.quotePublisher}}</h6>
-       <h6 class="card-subtitle mb-2 text-muted">Published On: </h6>
-       <a class="card-link btn btn-success" (click)="showMoreDetails(i)">More details</a>
+       <h6 class="card-subtitle mb-2 text-muted">Author: {{Quotes.quoteAuthor}}</h6>
+       <div id="likes">
+         <a id="upLike"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 0likes | </a>
+         <a id="downLike"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i> 0Dislikes</a><br>
+       </div> 
+       <a class="card-link btn btn-success" (click)="showMoreDetails(i)">More >></a>
        <app-details *ngIf="Quotes.showMore" [moreQuote]="Quotes" (removeQuote)="removeOne($event,i)"></app-details>
      </div>
    </div>

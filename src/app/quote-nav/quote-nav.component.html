@@ -1,7 +1,7 @@
 <nav class="navbar">
-  <h2 id="logo">Quote Log</h2>
+  <h2 id="logo"><span style="color: Red;">Q</span>uote <span style="color: red;">Log</span></h2>
   <div>
     <button class="btn btn-success" (click)='toggleForm()'>Create Quote</button>
-    <app-quote-form *ngIf='showForm' [quote]='quote' (addQuote)='addNewQuote($event)'></app-quote-form>
+    <app-quote-form *ngIf='showForm' [quote]='quote' (addForm)='toogleForm($event)'></app-quote-form>
   </div>
 </nav>

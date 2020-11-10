@@ -1,7 +1,7 @@
-  <div class="card" style="width: 25rem;">
+  <div class="card card-details" style="width: 25rem;">
     <div class="card-body">
-      <h6 class="card-subtitle mb-2 text-muted">Author: {{moreQuote.quoteAuthor}}</h6>
-      <!-- <p class="card-text">Published on: {{moreQuote.quoteDate}}</p> -->
-      <button (click)="deleteQuote(true)"class="btn btn-danger">Delete Quote</button>
+      <h6 class="card-subtitle mb-2 text-muted">Publisher: {{moreQuote.quotePublisher}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Published On: {{moreQuote.inputDate|date}}</h6>
+      <button (click)="deleteQuote(true)" class="btn btn-danger">Delete Quote</button>
     </div>
   </div>

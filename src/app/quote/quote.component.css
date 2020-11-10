@@ -1,3 +1,17 @@
-.card{
-    margin-top: 40px;
+.card {
+  margin-top: 40px;
+}
+
+#likes {
+  float: right;
+}
+
+a#uplike {
+  text-decoration: none;
+  color: black;
+}
+
+a#uplike:hover {
+  color: seagreen;
+
 }
