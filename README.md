@@ -32,6 +32,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## End User
+You can go through the application via:
+https://joshuaiyumva.github.io/quotes/
+
 ## Bug Report...
 The form is not responding yet but I'm trying to solve that issue...
 And the votes are not working too.
@@ -45,7 +50,6 @@ and *CSS* for styling
 ## Support and contact...
  you can send your feedbacks, or If after viewing the application you are not satisfied with what you saw, for example: you have trouble finding your Akan name, or my design is not well done and needs some renovating
  Write me via e-mail.
-    To view the application click here: https://joshuaiyumva.github.io/quotes/
         Want the source codes? Visit https://github.com/joshuaiyumva/quotes
 
 ## License...
